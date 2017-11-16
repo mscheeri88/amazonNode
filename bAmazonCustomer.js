@@ -85,7 +85,7 @@ function quantityCheck(name,usersQuantity) {
 
 //--------------------------------------------------//
 function displayProducts() {
-    var query = "SELECT id, product_name, price FROM products";
+    var query = "SELECT id, product_name, price, quantity FROM products";
     connection.query(query, function(err, res) {
       if (err) throw err;
       console.log(res);
