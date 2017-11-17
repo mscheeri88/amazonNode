@@ -70,7 +70,7 @@ function quantityCheck(name,usersQuantity) {
              });
                          
      }else{
-         console.log("error");
+         console.log("Insufficient Quantity!");
      }
 
         console.log("-----------------------------------");
